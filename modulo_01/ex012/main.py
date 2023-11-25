@@ -1,2 +1,3 @@
-n1=int(input('preco do produto?'))
-print(f'com desconto ficara: R$ {n1 - n1 * 0.05:.2f}')
+n1=int(input('preco do produto ? '))
+s= {n1 - n1 * 0.05}
+print(f'com desconto ficara: R$ {s}')
