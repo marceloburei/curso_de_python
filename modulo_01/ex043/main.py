@@ -1,24 +1,18 @@
 import math
 
-peso=float(input('digite seu peso: '))
-altura=float(input('digite sua altura: '))
+peso = float(input("digite seu peso: "))
+altura = float(input("digite sua altura: "))
 
-fimc= peso / (math.pow(altura,2))
+fimc = peso / (math.pow(altura, 2))
+if fimc <= 18.5:
+    print("abaixo do peso ")
+elif fimc <= 25:
+    print("peso ideal")
 
-ps1=  25 < 18 or 18 > 25
-ps2=  25 > 30 or 30 < 25
-ps3=  30 > 40 or 40 < 30
+elif fimc <= 30:
+    print("sobre peso")
 
-if 18.5 <= fimc :
-    print('abaixo do peso ')
-
-elif ps1 <= fimc :
-    print('peso ideal')
-
-elif ps2 <= fimc :
-    print('sobre peso') 
-
-elif ps3 <= fimc :
-    print('obesidade') 
-else :
-    print('obesidade morbida')
+elif fimc <= 40:
+    print("obesidade")
+else:
+    print("obesidade morbida")
