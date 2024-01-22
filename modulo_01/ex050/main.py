@@ -7,8 +7,7 @@ nm6 = float(input("digite um valor:"))
 
 vlr = nm1 + nm2 + nm3 + nm4 + nm5 + nm6
 
-if vlr / 2 == 0:
-    ("nao foi possivel efetuar o calculo")
-
-else:
+if vlr % 2 == 1:
     print(f"o valor e {vlr}")
+else:
+    print("nao foi possivel efetuar o calculo")
