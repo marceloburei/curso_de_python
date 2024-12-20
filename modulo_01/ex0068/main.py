@@ -2,7 +2,7 @@ import random
 
 cont = 0
 while True:
-
+    print("IMPAR OU PAR ")
     escolha = input("I\P: ").strip()
     numero = int(input("digite um numero: ").strip())
 

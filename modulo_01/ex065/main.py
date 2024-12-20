@@ -2,6 +2,7 @@ total = inp = 0
 numeros = []
 
 # leia varios numeros
+print("para parar digite (pare)")
 while inp != "pare":
     inp = input("digite um numero inteiro: ")
 
