@@ -1,5 +1,8 @@
-n1=int(input('quantos km andou ? :'))
-n2=int(input('quantos dias ? :'))
-s=(n1*0.15)+(n2*60)
-
-print(f'vc tem apagar {s} ')
+print("~" * 20)
+print("Emprestimo do carro")
+print("~" * 20)
+n1 = int(input("quantos km andou ? :"))
+n2 = int(input("quantos dias ? :"))
+s = (n1 * 0.15) + (n2 * 60)
+print("~" * 20)
+print(f"vc tem apagar {s} ")

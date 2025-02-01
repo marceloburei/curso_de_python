@@ -4,6 +4,7 @@ if numero == "(":
     aberto += 1
 elif numero == ")":
     fechado += 1
+
 if aberto == fechado:
     print(" sua expressao e valida")
 else:

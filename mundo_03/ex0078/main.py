@@ -17,8 +17,8 @@ print(f"voce digitou{listanum}")
 print(f"O maior numero digitado e: {maior}, e esta nas posicoes: ", end="")
 for c, v in enumerate(listanum):
     if v == maior:
-        print(f"{c}...", end="")
+        print(f"{c+1}...", end="")
 print(f"\nO menor numero digitado e: {menor}, e esta nas posicoes: ", end="")
 for c, v in enumerate(listanum):
     if v == menor:
-        print(f"{c}...", end="")
+        print(f"{c+1}...", end="")

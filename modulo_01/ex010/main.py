@@ -1,3 +1,3 @@
-n1=int(input('digite um valor'))
-s={n1/3.27}
-print(f'dolar: {s} ')
+n1 = int(input("quantos reais deseja converter em dolar: "))
+s = {n1 / 3.27}
+print(f"dolar: {s} ")
